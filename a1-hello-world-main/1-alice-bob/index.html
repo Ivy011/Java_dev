@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alice, meet Bob</title>
+  <style>
+    html {
+      background-color: green;
+    }
+  </style>
+</head>
+<body>
+  <script type="module">
+    import * as ab from './alice-bob.js';
+
+    let name = prompt('What’s your name?');
+    let age = prompt('How old are you?');
+    if (ab.respond) {
+      alert(ab.respond(name, age));
+    }
+  </script>
+</body>
+</html>
