@@ -1,0 +1,18 @@
+body {
+  width: 400px;
+  padding: 20px;
+}
+
+* {
+  margin: unset;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h1 {
+  color: blue;
+}
